@@ -1,0 +1,28 @@
+RewriteEngine On
+
+
+RewriteRule ^$ index.php [L]
+
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([a-zA-Z0-9_-]+)/?$ $1.php [L]
+
+
+
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+
+
+
+
+
+#/*
+ # ************************************************************
+ # *                        AWB                                 *
+ # *                       Copyright                              *
+  #*   Gyan Prakash Pandey   *   Ansh Shukla   *   Shiwan Tripathi   *
+ # *   Code is open source, but please do not remove this credit. *
+ # ************************************************************
+#*
