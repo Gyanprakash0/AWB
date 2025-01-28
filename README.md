@@ -42,7 +42,7 @@ Clone the repository to your local machine using Git:
 
 bash
 Copy
-git clone https://github.com/yourusername/AWB.git
+git clone https://github.com/gyanprakash0/AWB.git
 Alternatively, download the ZIP file from the GitHub repository and extract it.
 
 3. Configure the Database
